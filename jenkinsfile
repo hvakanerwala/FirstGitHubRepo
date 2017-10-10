@@ -10,8 +10,7 @@ pipeline {
       steps { 
         bat 'echo "Hello World"' 
 		bat 'echo "Hello Planit"'
-		bat 'cd C:/Users'
-		bat 'dir'
+		bat 'cd C:/Users&dir'
 		bat 'echo "End of script"'
       }
     }
