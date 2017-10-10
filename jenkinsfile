@@ -11,7 +11,7 @@ pipeline {
         bat 'echo "Hello World"' 
 	bat 'echo "Hello Planit"'
 	bat 'cd "C:\\Program Files (x86)\\TRICENTIS\\Tosca Testsuite\\ToscaCI\\Client"'
-	bat 'dir'
+	bat 'echo "End of script"'
       }
     }
   }
